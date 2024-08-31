@@ -1,0 +1,45 @@
+:root {
+	--font-family-main: 'SF Pro Display', 'Times New Roman', serif;
+	--font-size-m: 16px;
+	--font-line-m: 24px;
+	--font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+	--font-size-l: 24px;
+	--font-line-l: 32px;
+	--font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+	--elips1-bg: conic-gradient(
+		from -42.07deg at 50% 50%,
+		#6972cd -94.08deg,
+		#3abfff 59.67deg,
+		#726bd0 163.43deg,
+		#f0f 194.05deg,
+		#6972cd 265.92deg,
+		#3abfff 419.67deg
+	);
+	--elips2-bg: conic-gradient(
+		from -42.07deg at 50% 50%,
+		#6972cd -94.08deg,
+		#ff3aeb 59.67deg,
+		#726bd0 163.43deg,
+		#f0f 194.05deg,
+		#6972cd 265.92deg,
+		#ff3aeb 419.67deg
+	);
+	--elips3-bg: conic-gradient(
+		from -42.07deg at 50% 50%,
+		#6972cd -94.08deg,
+		#3abfff 59.67deg,
+		#726bd0 163.43deg,
+		#f0f 194.05deg,
+		#6972cd 265.92deg,
+		#3abfff 419.67deg
+	);
+	--navbar-height: 80px;
+	--sidebar-width: 300px;
+	--sidebar-width-collapsed: 80px;
+
+	// z - Индексы
+	--modal-z-index: 10;
+
+	// Цвета
+	--overlay-color: rgba(0, 0, 0, 60%);
+}

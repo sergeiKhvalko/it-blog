@@ -45,5 +45,5 @@ export const buildLoaders = ({ isDev }: BuildOptions): RuleSetRule[] => {
 		use: ['@svgr/webpack'],
 	}
 
-	return [tsLoader, scssLoader, fileLoader, svgLoader]
+	return [tsLoader, scssLoader]
 }
